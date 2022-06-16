@@ -1,0 +1,43 @@
+{
+  "html.enable":true,
+  "html.validate.scripts": true,
+  "html.format.enable":true,
+
+  "coc.preferences.colorSupport": true,
+  "highlight.colors.enable": true,
+
+    "python.linting.enabled": true,
+
+  "python.linting.pylintEnabled":true,
+    "javascript.referencesCodeLens.enable": false,
+  "javascript.implementationsCodeLens.enable": false,
+  "typescript.referencesCodeLens.enable": false,
+  "typescript.implementationsCodeLens.enable": false,
+  "diagnostic.errorSign": "x",
+  "diagnostic.infoSign": "ℹ",
+  "diagnostic.warningSign": "!",
+  "diagnostic.hintSign": ">",
+  "diagnostic.enableHighlightLineNumber": true,
+  "suggest.noselect": false,
+  "suggest.enablePreview": true,
+  "suggest.removeDuplicateItems": true,
+  "codeLens.enable": true,
+  "coc.preferences.jumpCommand": "drop",
+  "coc.preferences.rootPatterns": [
+    ".git",
+    ".vscode"
+  ],
+  "coc.preferences.formatOnSaveFiletypes": [
+    "cucumber",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "css"
+  ],
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.messageTarget": "float",
+  "diagnostic.separateRelatedInformationAsDiagnostics": true,
+  "diagnostic.virtualText": false,
+  "diagnostic.virtualTextCurrentLineOnly": false
+}
